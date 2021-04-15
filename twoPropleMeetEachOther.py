@@ -7,7 +7,7 @@ print ‘No’ they will not.'''
 def jump(x1,x2,v1,v2):
     if(x1>x2 and v1>v2):
         print("No")
-    if(v2>v1 and v2>v1):
+    if(x2>x1 and v2>v1):
         print("No")
     if(abs(x1-x2)%abs(v1-v2)==0):
         print("Yes")
